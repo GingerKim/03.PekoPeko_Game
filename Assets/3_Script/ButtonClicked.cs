@@ -8,8 +8,8 @@ public class ButtonClicked : MonoBehaviour {
     public GameObject _target;
     public string _functionName = "Regame";
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 
         _thisObjBtn = gameObject.GetComponentInChildren<Image>();
 
